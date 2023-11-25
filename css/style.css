@@ -1,0 +1,48 @@
+.errorBox {
+    border: 2px solid red;
+}
+.errorMsg {
+    color: red;
+    display: none;
+}
+.showError {
+    display: block;
+}
+.navbar-brand > img {
+    width: 50px;
+    height: 45px;
+    border-radius: 100%;
+}
+.signedOut {
+    display: none;
+}
+.fadable{
+    opacity: 1;
+    transition: .4s;
+}
+.fade {
+    opacity: 0;
+}
+.hidden{
+    display: none;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, grey,black);
+}
+*{
+    font-family: 'poppins' , sans-serif;
+    justify-content: center;
+}
+.acclink{
+    color: black;
+}
+
+
+
+
+
